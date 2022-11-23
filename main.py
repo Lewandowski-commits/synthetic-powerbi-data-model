@@ -2,6 +2,14 @@ from faker import Faker
 from faker_biology.physiology import CellType
 import pandas as pd
 import random
+import argparse
+
+# initialite parser
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-SALESMAN_ROWS", "--Output", help = "Show Output")
+
+args = parser.parse_args()
 
 # initiate a faker instance
 fake = Faker()
