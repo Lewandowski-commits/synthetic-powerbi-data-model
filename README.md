@@ -16,4 +16,5 @@ Quick script to generate 4 CSVs for a star schema to be used within PowerBI (or 
 python main.py
 ```
 or import it as a module to call the main function and specify the number of rows to be produced for each DF, and how many years the fact data should go back from today.
+
 3. The files will be generated in the directory where main.py was executed.
